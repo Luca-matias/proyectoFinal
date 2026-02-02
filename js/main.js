@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
-  // Cargar productos desde JSON
-  fetch("./js/productos.json")
+  // Cargar productos con JSON
+  fetch("./data/productos.json")
     .then(res => res.json())
     .then(data => {
       productos = data;
@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         Swal.fire(
           "Compra realizada",
-          "Gracias por tu compra 😊",
+          "Gracias por tu compra!",
           "success"
         );
       }

@@ -3,7 +3,7 @@ body {
   max-width: 700px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fafafa;
+  background-color: #494646;
 }
 
 h1 {
@@ -17,8 +17,8 @@ section {
   margin-bottom: 20px;
   border-radius: 5px;
 }
+/* diseno de productos */
 
-/* Productos en grilla */
 .productos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -59,7 +59,7 @@ section {
 }
 
 button {
-  background-color: #2ecc71;
+  background-color: #101010;
   border: none;
   color: white;
   padding: 6px 12px;
